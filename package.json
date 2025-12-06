@@ -26,7 +26,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/JoshTheDerf/directus-extension-mcp-presets.git"
+		"url": "git+https://github.com/JoshTheDerf/directus-extension-mcp-presets.git"
 	},
 	"homepage": "https://thederf.com",
 	"bugs": {
