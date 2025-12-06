@@ -13,9 +13,17 @@ A Directus extension that adds a `presets` tool to the MCP (Model Context Protoc
 
 ## Prerequisites
 
-This extension requires the `directus-extension-mcp-customization` extension to be installed and enabled.
+This extension requires the [`directus-extension-mcp-customization`](https://github.com/JoshTheDerf/directus-extension-mcp-customization) extension to be installed and enabled.
 
 ## Installation
+
+Install via npm:
+
+```bash
+npm install directus-extension-mcp-presets
+```
+
+Or manually:
 
 1. Install dependencies:
 ```bash
@@ -171,6 +179,12 @@ Validate the extension:
 ```bash
 npm run validate
 ```
+
+## Related Extensions
+
+- [`directus-extension-mcp-customization`](https://github.com/JoshTheDerf/directus-extension-mcp-customization) - Core framework for custom MCP tools (required)
+- [`directus-extension-mcp-comments`](https://github.com/JoshTheDerf/directus-extension-mcp-comments) - Adds a tool for managing comments to Directus MCP
+- [`directus-extension-mcp-hello-world`](https://github.com/JoshTheDerf/directus-extension-mcp-hello-world) - Example custom MCP tool
 
 ## License
 
